@@ -50,6 +50,19 @@ img {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 830px) {
+.grid {
+    width: 405px;
+    grid-template-columns: 200px 200px; 
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-template-areas: 'shoe shorts' 'plant plant' 'pineapple pineapple' 'pineapple pineapple' 'skateboard backpack' 'strawberry strawberry';
 }
+}
+@media only screen and (max-width: 470px) {
+    .grid {
+        width: 305px;
+        grid-template-columns: 150px 150px; 
+        grid-template-rows: 150px 150px 150px 150px 150px 150px;
+        grid-template-areas: 'shoe shorts' 'plant plant' 'pineapple pineapple' 'pineapple pineapple' 'skateboard backpack' 'strawberry strawberry';
+    }
+    }
