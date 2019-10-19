@@ -5,11 +5,11 @@
     grid-template-rows: 200px 200px 200px;
     grid-template-areas: 'shoe shorts pineapple pineapple' 'plant plant pineapple pineapple' 'skateboard backpack strawberry strawberry';
     grid-gap: 5px;
-    position: relative;
 }
 
 .grid div {
     overflow: hidden;
+    position: relative;
 }
 
 .shoe {
@@ -41,7 +41,10 @@
 }
 
 img {
-    width: 100%;
-    height: auto;
-    min-height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
 }
