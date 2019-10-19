@@ -1,0 +1,38 @@
+.grid {
+    width: 500px;
+    display: grid;
+    grid-template-areas: 'shoe shorts pineapple pineapple' 'plant plant pineapple pineapple' 'skateboard backpack strawberry strawberry';
+}
+
+.shoe {
+    grid-area: shoe;
+}
+
+.shorts {
+    grid-area: shorts;
+}
+
+.pineapple {
+    grid-area: pineapple;
+}
+
+.plant {
+    grid-area: plant;
+}
+
+.skateboard {
+    grid-area: skateboard;
+}
+
+.backpack {
+    grid-area: backpack;
+}
+
+.strawberry {
+    grid-area: strawberry;
+}
+
+img {
+    width: 100%;
+    height: auto
+}
