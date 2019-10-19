@@ -1,8 +1,15 @@
 .grid {
     width: 500px;
     display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
     grid-template-areas: 'shoe shorts pineapple pineapple' 'plant plant pineapple pineapple' 'skateboard backpack strawberry strawberry';
-grid-gap: 5px;
+    grid-gap: 5px;
+    position: relative;
+}
+
+.grid div {
+    overflow: hidden;
 }
 
 .shoe {
