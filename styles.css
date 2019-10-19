@@ -2,6 +2,7 @@
     width: 500px;
     display: grid;
     grid-template-areas: 'shoe shorts pineapple pineapple' 'plant plant pineapple pineapple' 'skateboard backpack strawberry strawberry';
+grid-gap: 5px;
 }
 
 .shoe {
