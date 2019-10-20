@@ -2,8 +2,8 @@
     width: 80%;
     height: 600px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 'shoe shorts pineapple pineapple' 'plant plant pineapple pineapple' 'skateboard backpack strawberry strawberry';
     grid-gap: 5px;
     margin: 0 auto;
@@ -55,8 +55,8 @@ img {
     .grid {
         width: 70%;
         grid-template-areas: 'shoe shorts' 'plant plant' 'pineapple pineapple' 'pineapple pineapple' 'skateboard backpack' 'strawberry strawberry';
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
         height: 1500px;
     }
 }
